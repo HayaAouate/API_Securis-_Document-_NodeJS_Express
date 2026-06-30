@@ -1,7 +1,7 @@
 # Rapport - API SkillHub (EC04)
 
 ## 1. Stack Technique
-Pour la réalisation de cette API, nous avons opté pour la stack suivante :
+Pour la réalisation de cette API, j'ai opté pour la stack suivante :
 *   **Langage / Serveur** : Node.js
 *   **Framework API** : Express.js (Choix justifié par sa légèreté, sa flexibilité et le fait qu'il s'agisse du standard de l'industrie pour les API en JavaScript).
 *   **Base de données** : MySQL (déployée via Docker / docker-compose pour garantir un environnement isolé et reproductible). Les requêtes sont faites en SQL natif via `mysql2/promise`.
